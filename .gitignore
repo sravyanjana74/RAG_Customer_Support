@@ -1,0 +1,12 @@
+# Ignore the virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore local database and logs
+chroma_db/
+*.log
+hitl_log.jsonl
+
+# Ignore environment variables (Important for security!)
+.env
